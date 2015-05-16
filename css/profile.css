@@ -1,0 +1,38 @@
+.banner
+{	margin-top: 30px;
+	padding: 8px;	
+}
+
+.message
+{	padding-bottom: 4px;
+	padding-top: 4px;
+}
+.message .subject,
+.message .content,
+.message .details
+{	margin-bottom: 4px;
+	margin-top: 4px;
+}
+
+@media all and (max-width: 480px)
+{
+	.banner
+	{	margin-top: 0px;
+	}		
+}
+
+@media all and (min-width: 480px) and (max-width: 767px)
+{
+	.banner
+	{	margin-top: 0px;
+		padding: 8px 0px;
+		text-align: center;
+	}		
+}
+
+@media all and (min-width: 767px) and (max-width: 979px)
+{
+	.banner
+	{	margin-top: 0px;
+	}	
+}

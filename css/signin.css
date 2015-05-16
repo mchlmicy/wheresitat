@@ -1,0 +1,18 @@
+input[type="password"].inline
+{	display: inline;
+	width: 42%;
+}
+input[type="text"].inline
+{	display: inline;
+	width: 42%;
+}
+
+.navbar-form label
+{	color: #999999;
+	font-weight: bold;
+}
+
+.signin-desktop input[type="text"]
+{	display: inline;
+	width: 43%;
+}

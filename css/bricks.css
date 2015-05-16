@@ -1,0 +1,211 @@
+body
+{	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.brick
+{	background-image: url('../img/ui/brick-overlay.png');	
+}
+.brick.color1{	background-color: hsl(3, 15%, 15%);}
+.brick.color2{	background-color: hsl(3, 30%, 15%);}
+.brick.color3{	background-color: hsl(3, 45%, 15%);}
+.brick.color4{	background-color: hsl(3, 60%, 15%);}
+.brick.color5{	background-color: hsl(3, 75%, 15%);}
+.brick.color6{	background-color: hsl(3, 15%, 30%);}
+.brick.color7{	background-color: hsl(3, 30%, 30%);}
+.brick.color8{	background-color: hsl(3, 45%, 30%);}
+.brick.color9{	background-color: hsl(3, 60%, 30%);}
+.brick.color10{	background-color: hsl(3, 75%, 30%);}
+.brick.color11{	background-color: hsl(3, 15%, 45%);}
+.brick.color12{	background-color: hsl(3, 30%, 45%);}
+.brick.color13{	background-color: hsl(3, 45%, 45%);}
+.brick.color14{	background-color: hsl(3, 60%, 45%);}
+.brick.color15{	background-color: hsl(3, 15%, 60%);}
+.brick.color16{	background-color: hsl(3, 30%, 60%);}
+.brick.color17{	background-color: hsl(3, 45%, 60%);}
+.brick.color18{	background-color: hsl(3, 15%, 75%);}
+.brick.color19{	background-color: hsl(3, 30%, 75%);}
+.brick.color20{	background-color: hsl(3, 45%, 75%);}
+
+.brick.post
+{	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	cursor: pointer;
+	height: 61px;
+	margin: 4px;
+	padding: 0px;
+	width: 186px;
+}
+.brick.post .brick_content
+{	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.brick.post .brick_hidden
+{	display: none;
+}
+.brick.post .brick_timestamp
+{	color: #ffffff;
+	font-size: 12px;
+	margin-right: 3px;
+	padding-bottom: 3px;
+	text-align: right;
+}
+
+.brick.modal
+{	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	color: #ffffff;	
+	margin-left: 0px 0px 0px -280px;
+	padding: 0px;
+}
+.brick.modal .brick_subject
+{	background-color: rgba(0,0,0,.5);
+	border-top-left-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-webkit-border-top-left-radius: 8px;
+	border-top-right-radius: 8px;	
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-right-radius: 8px;
+	font-size: 24px;	
+	font-weight: bold;
+}
+.brick.modal .brick_subject .close
+{	padding: 4px;
+}
+.brick.modal .brick_subject .content
+{	overflow: hidden;
+	padding: 8px;	
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.brick.modal .brick_content
+{	font-size: 18px;
+	height: 120px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	text-align: justify;
+	padding: 8px;
+}
+.brick.modal .brick_stats
+{	padding: 2px 8px;
+}
+.brick.modal brick_stats .label
+{	font-size: 14px;
+	margin-right: 8px;
+}
+.brick.modal .brick_stats .label.color1{	background-color: hsl(3, 0%, 0%);}
+.brick.modal .brick_stats .label.color2{	background-color: hsl(3, 15%, 0%);}
+.brick.modal .brick_stats .label.color3{	background-color: hsl(3, 30%, 0%);}
+.brick.modal .brick_stats .label.color4{	background-color: hsl(3, 45%, 0%);}
+.brick.modal .brick_stats .label.color5{	background-color: hsl(3, 60%, 0%);}
+.brick.modal .brick_stats .label.color6{	background-color: hsl(3, 0%, 15%);}
+.brick.modal .brick_stats .label.color7{	background-color: hsl(3, 15%, 15%);}
+.brick.modal .brick_stats .label.color8{	background-color: hsl(3, 30%, 15%);}
+.brick.modal .brick_stats .label.color9{	background-color: hsl(3, 45%, 15%);}
+.brick.modal .brick_stats .label.color10{	background-color: hsl(3, 60%, 15%);}
+.brick.modal .brick_stats .label.color11{	background-color: hsl(3, 0%, 30%);}
+.brick.modal .brick_stats .label.color12{	background-color: hsl(3, 15%, 30%);}
+.brick.modal .brick_stats .label.color13{	background-color: hsl(3, 30%, 30%);}
+.brick.modal .brick_stats .label.color14{	background-color: hsl(3, 45%, 30%);}
+.brick.modal .brick_stats .label.color15{	background-color: hsl(3, 0%, 45%);}
+.brick.modal .brick_stats .label.color16{	background-color: hsl(3, 15%, 45%);}
+.brick.modal .brick_stats .label.color17{	background-color: hsl(3, 30%, 45%);}
+.brick.modal .brick_stats .label.color18{	background-color: hsl(3, 0%, 60%);}
+.brick.modal .brick_stats .label.color19{	background-color: hsl(3, 15%, 60%);}
+.brick.modal .brick_stats .label.color20{	background-color: hsl(3, 30%, 60%);}
+.brick.modal .brick_stats .upvote,
+.brick.modal .brick_stats .downvote
+{	cursor: pointer;
+}
+.brick.modal .brick_timestamp
+{	background-color: rgba(0,0,0,1);
+	color: #ffffff;
+	border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;	
+	-moz-border-radius-bottomright: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	font-size: 14px;	
+	padding: 2px 10px;	
+}
+.brick.modal .brick_timestamp .ownerlink
+{	color: #ffffff;
+}
+.brick.modal .brick_timestamp .ownerlink:hover
+{	color: #ffffff;
+	text-decoration: none;
+}
+
+@media all and (max-width: 480px)
+{
+	.brick.post
+	{	margin: 1%;		
+		width: 98%;
+	}
+}
+@media all and (min-width: 480px) and (max-width: 767px)
+{
+
+}
+@media all and (min-width: 767px) and (max-width: 979px)
+{
+	
+}
+/*
+
+.brick_subject.message
+{	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-top-left-radius: 8px;
+	font-size: 24px;
+	overflow: hidden;
+	padding: 8px;	
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+
+
+.brick_content.message
+{	font-size: 18px;
+	padding: 8px;
+}
+
+
+.brick_timestamp
+{	background-color: rgba(0,0,0,1);
+	color: #ffffff;
+}
+.brick_timestamp.message
+{	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	padding: 2px 10px;
+}
+
+.brick_timestamp.message .reply
+{	color: #ffffff;
+}
+.brick_timestamp.message .reply:hover
+{	color: #ffffff;
+	text-decoration: none;
+}
+
+
+*/

@@ -1,0 +1,75 @@
+.form-body
+{	max-height: 275px;
+	min-width: 271px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;	
+}
+
+.form-body input[type="password"]
+{	width: 75%;
+}
+.form-body input[type="text"],
+.form-body textarea
+{	width: 75%;
+}
+.form-body input[type="text"].inline
+{	display: inline;
+	width: 43%;
+}
+.form-body select
+{	width: 75%;
+}
+
+.form-body .control-group .controls
+{	width: 50%;
+}
+
+.form-body .control-group .controls .help-block
+{	text-align: center;
+}
+
+@media all and (max-width: 480px)
+{
+	.form-body
+	{	max-height: 115px;
+		overflow-y: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+				
+	.form-body .control-group .control-label
+	{	display: none;
+	}	
+	.form-body .control-group .controls
+	{	width: 90%;
+	}
+}
+
+
+@media all and (min-width: 480px) and (max-width: 767px) 
+{	
+	.form-body
+	{	max-height: 155px;
+		overflow-y: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+	
+	.form-body .control-group .control-label
+	{	display: none;
+	}
+	
+	.form-body .control-group .controls
+	{	margin-left: 0px;
+		width: 90%;
+	}
+}
+
+
+@media all and (min-width: 767px) and (max-width: 979px)
+{
+	.form-body
+	{	max-height: 205px;
+		overflow-y: auto;
+		-webkit-overflow-scrolling: touch;
+	}	
+}

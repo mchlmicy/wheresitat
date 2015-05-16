@@ -1,0 +1,105 @@
+.banner-logo
+{	background-image: url('../img/logo/wheresitat.png');
+	background-repeat: no-repeat;
+	height: 254px;
+	width: 400px;
+}
+.banner-logo:hover
+{	background-image: url('../img/logo/wheresitat-highlight.png');
+	background-repeat: no-repeat;
+	height: 254px;
+	width: 400px;
+}
+
+#filter.nav .tab,
+#sort.nav .tab
+{	text-align: center;
+	width: 128px;
+}
+
+#filtering,
+#sorting
+{	background-color: rgba(0,0,0,0);
+
+}
+
+#filter.dropdown-menu .tab.active a,
+#sort.dropdown-menu .tab.active a
+{	background-color: #e5e5e5;
+	background-image: none;
+	box-shadow: inset 0px 3px 8px rgba(0, 0, 0, 0.125);
+	-moz-box-shadow: inset 0px 3px 8px rgba(0, 0, 0, 0.125);
+	-webkit-box-shadow: inset 0px 3px 8px rgba(0, 0, 0, 0.125);
+	color: #555555;
+	text-decoration: none;	
+}
+#filter.dropdown-menu .tab a,
+#sort.dropdown-menu .tab a
+{	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	color: #777777;
+	font-weight: bold;
+	margin-bottom: 2px;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+#filter.dropdown-menu .tab a:hover,
+#sort.dropdown-menu .tab a:hover
+{	background-color: #f2f2f2;
+	background-image: none;
+	color: #333333;	
+}
+#filter.dropdown-menu .tab.active a:hover,
+#sort.dropdown-menu .tab.active a:hover
+{	background-color: #e5e5e5;
+}
+
+@media all and (max-width: 480px)
+{
+	.banner
+	{	padding: 0px;
+	}	
+	.banner .banner-logo
+	{	background-image: url('../img/logo/wheresitat-mobile.png');
+		background-position:center; 
+		background-repeat: no-repeat;
+		height: 254px;
+		width: 100%;
+	}
+	.banner .banner-logo:hover
+	{	background-image: url('../img/logo/wheresitat-mobile.png');
+		background-position:center; 
+		background-repeat: no-repeat;
+		height: 254px;
+		width: 100%;
+	}	
+	.banner .banner-text
+	{	padding: 8px;
+	}	
+}
+
+@media all and (min-width: 480px) and (max-width: 767px)
+{
+	.banner
+	{	text-align: center;
+	}	
+	.banner .banner-logo
+	{	background-image: url('../img/logo/wheresitat-mobile.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 254px;
+		width: 100%;
+	}
+	.banner .banner-logo:hover
+	{	background-image: url('../img/logo/wheresitat-mobile.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 254px;
+		width: 100%;
+	}
+}
+
+@media all and (min-width: 767px) and (max-width: 979px)
+{
+		
+}

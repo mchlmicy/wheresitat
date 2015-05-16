@@ -1,0 +1,4 @@
+[30-Apr-2013 00:00:22 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/dynamicw/public_html/youngm6/wheresitat/users/index.php on line 105
+[30-Apr-2013 00:00:22 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/dynamicw/public_html/youngm6/wheresitat/users/index.php on line 114
+[08-May-2013 17:57:57 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/dynamicw/public_html/youngm6/wheresitat/users/index.php on line 107
+[08-May-2013 17:57:57 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/dynamicw/public_html/youngm6/wheresitat/users/index.php on line 116

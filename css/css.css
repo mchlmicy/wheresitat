@@ -1,0 +1,67 @@
+.desktop
+{	display: inherit;
+}
+.mobile
+{	display: none;
+}
+.mobile.tablet
+{	display: none;
+}
+.tablet
+{	display: none;
+}
+
+
+@media all and (max-width: 480px)
+{
+	.desktop	
+	{	display: none;
+	}
+	.mobile
+	{	display: inherit;
+	}
+	.mobile.tablet
+	{	display: inherit;
+	}
+	.tablet
+	{	display: none;
+	}	
+}
+
+
+@media all and (min-width: 480px) and (max-width: 767px)
+{
+	.desktop
+	{	display: none;
+	}
+	.mobile
+	{	display: inherit;
+	}
+	.mobile.tablet
+	{	display: inherit;
+	}
+	.tablet
+	{	display: none;
+	}
+}
+
+
+@media all and (min-width: 767px) and (max-width: 979px)
+{
+	.desktop
+	{	display: none;
+	}
+	.mobile
+	{	display: none;
+	}
+	.mobile.tablet
+	{	display: inherit;
+	}
+	.tablet
+	{	display: inherit;
+	}
+		
+	button#signin
+	{	float: right;
+	}
+}
