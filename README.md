@@ -8,7 +8,8 @@
 
 **Features:** An interesting take on Isotope JS Plugin (listed posts are randomly colored bricks in a wall [note colors change on page refresh]).
 
-**Demos** 
+Demos
+---
 
 Desktop &mdash; https://www.youtube.com/watch?v=Y0gZIdWs4e4
 
